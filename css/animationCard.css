@@ -1,8 +1,12 @@
-#btnControl{
+#btnControlOne,#btnControlTwo{
     display: none;
 }
 
-#btnControl:checked + label > .cardWrapper .cards{
+#btnControlOne:checked + label > .cardWrapper .cards{
+    transform: rotateY(180deg);
+}
+
+#btnControlTwo:checked + label > .cardWrapper .cards{
     transform: rotateY(180deg);
 }
 
@@ -16,7 +20,7 @@
 .cards{
     position: relative;
     height: 40vh;
-    width: 40vw;
+    width: 35vw;
     margin: 07.5rem;
     transform-style: preserve-3d;
     transition: transform 0.8s cubic-bezier(0.86,0,0.07,1);
