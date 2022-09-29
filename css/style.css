@@ -16,10 +16,21 @@
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
+.cardB {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #2F4858;
+    width: 40vw;
+    height: 45vh;
+    border-radius: 20px;
+    margin: 1rem;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
 h1 {
     text-align: center;
     color: #F76C6C;
-    font-style: normal;
     font-size: 1.5rem;
     letter-spacing: 0.5rem;
     margin: 2rem;
@@ -68,9 +79,20 @@ h1 {
     filter: grayscale(80%);
 }
 
+.bio {
+    text-align: left;
+    color: white;
+    font-size: 1rem;
+    margin: 0.5rem;
+    width: 60%;
+    text-justify: auto;
+}
+
+
 ion-icon {
     color: #F76C6C;
     width: 2rem;
     height: 2rem;
 
 }
+
