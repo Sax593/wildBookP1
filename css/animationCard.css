@@ -1,0 +1,39 @@
+#btnControl{
+    display: none;
+}
+
+#btnControl:checked + label > .cardWrapper .cards{
+    transform: rotateY(180deg);
+}
+
+.cardWrapper{
+    position: relative;
+    min-height: 40vh;
+    perspective: 2000px;
+    perspective-origin: top;
+}
+
+.cards{
+    position: relative;
+    height: 40vh;
+    width: 40vw;
+    margin: 07.5rem;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.86,0,0.07,1);
+    color: var(--whiteColor);
+    font-weight: bold;
+}
+
+.cardF, .cardB{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    background-repeat: 5px;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.cardB{
+    transform: rotateY(180deg);
+}

@@ -75,6 +75,7 @@ section {
     flex-wrap: wrap;
     background-color: #2F4858;
     width: 40vw;
+
     height: 45vh;
     border-radius: 20px;
     margin: 1rem;
@@ -153,16 +154,13 @@ h1 {
     text-justify: auto;
 }
 
-
 ion-icon {
     color: #F76C6C;
     width: 2rem;
     height: 2rem;
-
 }
 
 #footer a {
     text-decoration: none;
     color: #ECE4E4;
 }
-
