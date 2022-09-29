@@ -1,12 +1,8 @@
-#btnControlOne,#btnControlTwo{
+#btnControlOne,#btnControlTwo,#btnControlThree,#btnControlFour{
     display: none;
 }
 
-#btnControlOne:checked + label > .cardWrapper .cards{
-    transform: rotateY(180deg);
-}
-
-#btnControlTwo:checked + label > .cardWrapper .cards{
+#btnControlOne:checked + label > .cardWrapper .cards,#btnControlTwo:checked + label > .cardWrapper .cards,#btnControlThree:checked + label > .cardWrapper .cards,#btnControlFour:checked + label > .cardWrapper .cards{
     transform: rotateY(180deg);
 }
 
@@ -30,10 +26,6 @@
 
 .cardF, .cardB{
     position: absolute;
-    height: 100%;
-    width: 100%;
-    padding: 2rem;
-    background-repeat: 5px;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
