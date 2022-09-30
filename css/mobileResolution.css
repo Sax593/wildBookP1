@@ -1,0 +1,43 @@
+.iconResponsive {
+    display: inline;
+    color: var(--secondaryColor);
+}
+
+.titleBtn {
+    display: none;
+
+}
+
+#header button {
+    background-color: transparent;
+    border: unset;
+    box-shadow: 5px 4px 4px transparent;
+    mix-blend-mode: unset;
+
+}
+
+.cardF,
+.cardB {
+    width: 95vw;
+}
+
+.cards {
+    width: 100vw;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 2rem 0;
+
+}
+
+section {
+    margin: 0;
+
+}
+
+#cardFrontDesk {
+    justify-content: flex-start;
+}
+
+.linkDescription a:hover {
+    transform: translateY(15px);
+}

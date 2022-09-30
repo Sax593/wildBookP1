@@ -1,0 +1,26 @@
+/* Bouttons tournez moi SVP */
+
+/* Bouttons lien réseaux */
+.linkDescription a{
+    display: flex;
+    flex-direction: row;
+    color: #F76C6C;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    align-items: center;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.5)
+}
+
+.linkDescription a:hover{
+    background-color: #F76C6C;
+    color: #2F4858;
+    transform:translateX(50px) ;
+}
+
+ion-icon {
+    margin: 0 1rem ;
+    width: 2rem;
+    height: 2rem;
+}
+

@@ -1,0 +1,8 @@
+:root {
+    --mainColor: #F76C6C;
+    --secondaryColor: #2F4858;
+    --whiteColor: #ECE4E4;
+    --fontFamily: 'roboto', sans-serif;
+    --widthCard: 40vw;
+    --heightCard: 40vh;
+}
