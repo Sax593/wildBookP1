@@ -1,52 +1,141 @@
 /* AnimPHP */
-#btnControlOne,#btnControlTwo,#btnControlThree,#btnControlFour,#btnControlFive,#btnControlSix,#btnControlSeven,#btnControlHeight,#btnControlNine,#btnControlTen,#btnControlEleven,#btnControlTwelve,#btnControlThirteen,#btnControlFourteen{
+#btnControlOne,
+#btnControlTwo,
+#btnControlThree,
+#btnControlFour,
+#btnControlFive,
+#btnControlSix,
+#btnControlSeven,
+#btnControlHeight,
+#btnControlNine,
+#btnControlTen,
+#btnControlEleven,
+#btnControlTwelve,
+#btnControlThirteen,
+#btnControlFourteen {
     display: none;
 }
 
-#btnControlOne:checked + label > .cardWrapper .cards,#btnControlTwo:checked + label > .cardWrapper .cards,#btnControlThree:checked + label > .cardWrapper .cards,#btnControlFour:checked + label > .cardWrapper .cards,#btnControlFive:checked + label > .cardWrapper .cards,#btnControlFour:checked + label > .cardWrapper .cards,#btnControlSix:checked + label > .cardWrapper .cards,#btnControlSeven:checked + label > .cardWrapper .cards,#btnControlHeight:checked + label > .cardWrapper .cards,#btnControlFour:checked + label > .cardWrapper .cards,#btnControlNine:checked + label > .cardWrapper .cards,#btnControlTen:checked + label > .cardWrapper .cards,#btnControlEleven:checked + label > .cardWrapper .cards,#btnControlTwelve:checked + label > .cardWrapper .cards,#btnControlThirteen:checked + label > .cardWrapper .cards,#btnControlFourteen:checked + label > .cardWrapper .cards{
+#btnControlOne:checked+label>.cardWrapper .cards,
+#btnControlTwo:checked+label>.cardWrapper .cards,
+#btnControlThree:checked+label>.cardWrapper .cards,
+#btnControlFour:checked+label>.cardWrapper .cards,
+#btnControlFive:checked+label>.cardWrapper .cards,
+#btnControlFour:checked+label>.cardWrapper .cards,
+#btnControlSix:checked+label>.cardWrapper .cards,
+#btnControlSeven:checked+label>.cardWrapper .cards,
+#btnControlHeight:checked+label>.cardWrapper .cards,
+#btnControlFour:checked+label>.cardWrapper .cards,
+#btnControlNine:checked+label>.cardWrapper .cards,
+#btnControlTen:checked+label>.cardWrapper .cards,
+#btnControlEleven:checked+label>.cardWrapper .cards,
+#btnControlTwelve:checked+label>.cardWrapper .cards,
+#btnControlThirteen:checked+label>.cardWrapper .cards,
+#btnControlFourteen:checked+label>.cardWrapper .cards {
     transform: rotateY(180deg);
 }
+
 /* AnimJS */
-#btnControlJS1,#btnControlJS2,#btnControlJS3,#btnControlJS4,#btnControlJS5,#btnControlJS6,#btnControlJS7,#btnControlJS8,#btnControlJS9,#btnControlJS10,#btnControlJS11,#btnControlJS12,#btnControlJS13,#btnControlJS14,#btnControlJS15{
+#btnControlJS1,
+#btnControlJS2,
+#btnControlJS3,
+#btnControlJS4,
+#btnControlJS5,
+#btnControlJS6,
+#btnControlJS7,
+#btnControlJS8,
+#btnControlJS9,
+#btnControlJS10,
+#btnControlJS11,
+#btnControlJS12,
+#btnControlJS13,
+#btnControlJS14,
+#btnControlJS15 {
     display: none;
 }
 
-#btnControlJS1:checked + label > .cardWrapper .cards,#btnControlJS2:checked + label > .cardWrapper .cards,#btnControlJS3:checked + label > .cardWrapper .cards,#btnControlJS4:checked + label > .cardWrapper .cards,#btnControlJS5:checked + label > .cardWrapper .cards,#btnControlJS6:checked + label > .cardWrapper .cards,#btnControlJS7:checked + label > .cardWrapper .cards,#btnControlJS8:checked + label > .cardWrapper .cards,#btnControlJS9:checked + label > .cardWrapper .cards,#btnControlJS10:checked + label > .cardWrapper .cards,#btnControlJS11:checked + label > .cardWrapper .cards,#btnControlJS12:checked + label > .cardWrapper .cards,#btnControlJS13:checked + label > .cardWrapper .cards,#btnControlJS14:checked + label > .cardWrapper .cards,#btnControlJS15:checked + label > .cardWrapper .cards{
+#btnControlJS1:checked+label>.cardWrapper .cards,
+#btnControlJS2:checked+label>.cardWrapper .cards,
+#btnControlJS3:checked+label>.cardWrapper .cards,
+#btnControlJS4:checked+label>.cardWrapper .cards,
+#btnControlJS5:checked+label>.cardWrapper .cards,
+#btnControlJS6:checked+label>.cardWrapper .cards,
+#btnControlJS7:checked+label>.cardWrapper .cards,
+#btnControlJS8:checked+label>.cardWrapper .cards,
+#btnControlJS9:checked+label>.cardWrapper .cards,
+#btnControlJS10:checked+label>.cardWrapper .cards,
+#btnControlJS11:checked+label>.cardWrapper .cards,
+#btnControlJS12:checked+label>.cardWrapper .cards,
+#btnControlJS13:checked+label>.cardWrapper .cards,
+#btnControlJS14:checked+label>.cardWrapper .cards,
+#btnControlJS15:checked+label>.cardWrapper .cards {
     transform: rotateY(180deg);
 }
+
 /* Anim Data */
-#btnControlData1,#btnControlData2,#btnControlData3,#btnControlData4,#btnControlData5,#btnControlData6,#btnControlData7,#btnControlData8,#btnControlData9,#btnControlData10{
+#btnControlData1,
+#btnControlData2,
+#btnControlData3,
+#btnControlData4,
+#btnControlData5,
+#btnControlData6,
+#btnControlData7,
+#btnControlData8,
+#btnControlData9,
+#btnControlData10 {
     display: none;
 }
 
-#btnControlData1:checked + label > .cardWrapper .cards,#btnControlData2:checked + label > .cardWrapper .cards,#btnControlData3:checked + label > .cardWrapper .cards,#btnControlData4:checked + label > .cardWrapper .cards,#btnControlData5:checked + label > .cardWrapper .cards,#btnControlData6:checked + label > .cardWrapper .cards,#btnControlData7:checked + label > .cardWrapper .cards,#btnControlData8:checked + label > .cardWrapper .cards,#btnControlData9:checked + label > .cardWrapper .cards,#btnControlData10:checked + label > .cardWrapper .cards{
+#btnControlData1:checked+label>.cardWrapper .cards,
+#btnControlData2:checked+label>.cardWrapper .cards,
+#btnControlData3:checked+label>.cardWrapper .cards,
+#btnControlData4:checked+label>.cardWrapper .cards,
+#btnControlData5:checked+label>.cardWrapper .cards,
+#btnControlData6:checked+label>.cardWrapper .cards,
+#btnControlData7:checked+label>.cardWrapper .cards,
+#btnControlData8:checked+label>.cardWrapper .cards,
+#btnControlData9:checked+label>.cardWrapper .cards,
+#btnControlData10:checked+label>.cardWrapper .cards {
     transform: rotateY(180deg);
 }
 
-.cardWrapper{
+.cardWrapper {
     position: relative;
     min-height: 40vh;
     perspective: 2000px;
     perspective-origin: top;
 }
 
-.cards{
+.cards {
     position: relative;
     height: 40vh;
     width: 35vw;
     margin: 07.5rem;
     transform-style: preserve-3d;
-    transition: transform 0.8s cubic-bezier(0.86,0,0.07,1);
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
     color: var(--whiteColor);
     font-weight: bold;
 }
 
-.cardF, .cardB{
+.cardF,
+.cardB {
     position: absolute;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
 
-.cardB{
+.cardB {
     transform: rotateY(180deg);
+}
+
+@media (min-width=800px) {
+    .cards {
+        object-fit: contain;
+        width: 80vw;
+        height: 45vh;
+        background-color: aquamarine;
+        margin: 2rem 0;
+
+    }
+
 }

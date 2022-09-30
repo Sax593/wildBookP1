@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wilders of the Coast</title>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variable.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/animationCard.css">
     <link rel="stylesheet" href="./css/btnStyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="./css/mobileResolution.css" />
 </head>
 
 <body>
@@ -17,9 +19,24 @@
     <header id="header">
         <img id="logo" src="./assets/logoWildersOfTheCoast.png">
         <div class="buttons">
-            <button><a href="#php"> Promo PHP</a></button>
-            <button><a href="#js">Promo JS</a></button>
-            <button><a href="#data">Promo DATA</a></button>
+            <button><a href="#php">
+                    <p class="titleBtn"> Promo PHP</p>
+                    <p class="iconResponsive"><img src="./assets/🦆 icon _php_.png" </p>
+                </a>
+            </button>
+            <button><a href="#js">
+                    <p class="titleBtn">Promo JS</p>
+                    <p class="iconResponsive">
+                        <ion-icon name="logo-javascript"></ion-icon>
+                    </p>
+                </a></button>
+            <button><a href="#data">
+                    <p class="titleBtn">Promo DATA</p>
+                    <p class="iconResponsive">
+                        <ion-icon name="logo-python"></ion-icon>
+                    </p>
+                </a></button>
+
         </div>
     </header>
 
@@ -239,6 +256,7 @@
                     </div>
                 </div>
             </label>
+
             <input type="checkbox" id="btnControlSeven">
             <label class="btn" for="btnControlSeven">
                 <div class="cardWrapper">
@@ -443,6 +461,7 @@
                     </div>
                 </div>
             </label>
+
             <input type="checkbox" id="btnControlThriteen">
             <label class="btn" for="btnControlThriteen">
                 <div class="cardWrapper">
@@ -1411,7 +1430,6 @@
             </label>
         </div>
     </section>
-
     <!-- Footer -->
     <footer id="footer">
         <a href="http://copyright.be" target="_blank">Copyright © 2022 wildersofthecoast - Tous droits réservés</a>
