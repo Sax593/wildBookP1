@@ -7,16 +7,15 @@ slides.forEach(function (slide, index) {
 let counter = 0;
 nextBtn.addEventListener("click", function () {
   counter++;
-  carousel();
+  carouselPHP();
 });
 
 prevBtn.addEventListener("click", function () {
   counter--;
-  carousel();
+  carouselPHP();
 });
 
-function carousel() {
-
+function carouselPHP() {
   if (counter < slides.length - 1) {
     nextBtn.style.display = "block";
   } else {

@@ -183,20 +183,28 @@ h1 {
     display: flex;
   }
 
-  .slide {
+  .slide,
+  .slideJs,
+  .slideData {
     width: 100%;
     height: 100%;
    transition: all 0.25s ease-in-out;
    flex-direction: row;
   }
 
-.btn-container {
+.btn-container,
+.btn-containerJs,
+.btn-containerData {
     display: flex;
     justify-content: center;
     margin-top: 0.75rem;
   }
   .prevBtn,
-  .nextBtn {
+  .nextBtn,
+  .prevBtnJs,
+  .nextBtnJs,
+  .prevBtnData,
+  .nextBtnData {
     background: transparent;
     border-color: transparent;
     font-size: 1.75rem;
@@ -208,7 +216,11 @@ h1 {
     transition: all 0.3s linear;
   }
   .prevBtn:hover,
-  .nextBtn:hover {
+  .nextBtn:hover,
+  .prevBtnJs:hover,
+  .nextBtnJs:hover,
+  .prevBtnData:hover,
+  .nextBtnData:hover {
     color: var(--mainColor);
   }
 
