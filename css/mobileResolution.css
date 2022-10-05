@@ -41,3 +41,16 @@ section {
 .linkDescription a:hover {
     transform: translateY(15px);
 }
+
+#header nav {
+    display: flex;
+}
+
+.buttons {
+    display: none;
+}
+
+.mobile {
+    display: inline;
+    width: 100%;
+}

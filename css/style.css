@@ -40,6 +40,11 @@ section {
 
 #cross {
     transform: rotate(45deg);
+    color: #2F4858;
+}
+
+.in{
+    color: #2F4858;
 }
 
 #footer {
@@ -176,4 +181,8 @@ h1 {
 #footer a {
     text-decoration: none;
     color: #ECE4E4;
+}
+
+.mobile {
+    display: none;
 }
