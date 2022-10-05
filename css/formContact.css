@@ -33,6 +33,45 @@ body {
     text-decoration: none;
 }
 
+blockquote {
+    position: relative;
+    padding: 4em 3em 4em 3em;
+    margin-bottom: 5rem;
+}
+
+blockquote:before {
+    font-family: var(--fontFamily);
+    position: absolute;
+    font-size: 8em;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+
+blockquote:after {
+    position: absolute;
+    font-family: var(--fontFamily);
+    font-size: 8em;
+    right: 0;
+    bottom: -0.5em;
+    content: "\201D";
+}
+
+.introTextContact {
+    font-size: 1rem;
+    font-family: var(--fontFamily);
+    letter-spacing: 0.3rem;
+    margin: 0 auto;
+}
+
+.introContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--secondaryColor);
+    margin-top: 10rem;
+}
+
 
 #header button {
     background: #2F4858;
@@ -50,63 +89,51 @@ body {
 
 .contactForm {
 
-    /* font-family: var(--fontFamily); */
-    /* font-size: 1em; */
-    /* color: var(--secondaryColor); */
-    height: 100vh;
-    width: 100%;
-    border: #2F4858 solid;
-    /* display: flex;
-    justify-content: center; */
-    margin: 10rem 0;
-}
-
-/* form {
-    margin: 0 auto;
-    text-align: center;
-}
-
-label {
     font-family: var(--fontFamily);
     font-size: 1em;
     color: var(--secondaryColor);
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem
+
 }
 
-input {
-    font-family: var(--fontFamily);s
-    font-size: 1em;
-    width: 20em;
-    margin: 0.5rem 0;
+form {
+    text-align: center;
 }
-
-textarea {
-    width: 40em;
-} */
 
 #submit {
     width: 5rem;
 }
 
-
-[type],
-[placeholder] {
+[textarea] {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
     width: 80%;
-    margin-bottom: 20px;
-    height: 20px;
+    margin-bottom: 2em;
+    height: 1.5em;
+}
+
+[type] {
+    margin: 2em 0;
+}
+
+.lName{
+    margin-right: 4.5em;
+}
+
+.fName{
+    margin-left: 4.5em;
 }
 
 #message {
-    height: 80px;
+    height: 8em;
+    width:50%;
+    
 }
-
-
-
-
-
 
 
 #footer {
