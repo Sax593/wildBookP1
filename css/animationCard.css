@@ -16,22 +16,22 @@
     display: none;
 }
 
-#btnControlOne:checked+label>.cardWrapper .cards,
-#btnControlTwo:checked+label>.cardWrapper .cards,
-#btnControlThree:checked+label>.cardWrapper .cards,
-#btnControlFour:checked+label>.cardWrapper .cards,
-#btnControlFive:checked+label>.cardWrapper .cards,
-#btnControlFour:checked+label>.cardWrapper .cards,
-#btnControlSix:checked+label>.cardWrapper .cards,
-#btnControlSeven:checked+label>.cardWrapper .cards,
-#btnControlHeight:checked+label>.cardWrapper .cards,
-#btnControlFour:checked+label>.cardWrapper .cards,
-#btnControlNine:checked+label>.cardWrapper .cards,
-#btnControlTen:checked+label>.cardWrapper .cards,
-#btnControlEleven:checked+label>.cardWrapper .cards,
-#btnControlTwelve:checked+label>.cardWrapper .cards,
-#btnControlThirteen:checked+label>.cardWrapper .cards,
-#btnControlFourteen:checked+label>.cardWrapper .cards {
+#btnControlOne:checked+label>.cardFrontDesk .cards,
+#btnControlTwo:checked+label>.cardFrontDesk .cards,
+#btnControlThree:checked+label>.cardFrontDesk .cards,
+#btnControlFour:checked+label>.cardFrontDesk .cards,
+#btnControlFive:checked+label>.cardFrontDesk .cards,
+#btnControlFour:checked+label>.cardFrontDesk .cards,
+#btnControlSix:checked+label>.cardFrontDesk .cards,
+#btnControlSeven:checked+label>.cardFrontDesk .cards,
+#btnControlHeight:checked+label>.cardFrontDesk .cards,
+#btnControlFour:checked+label>.cardFrontDesk .cards,
+#btnControlNine:checked+label>.cardFrontDesk .cards,
+#btnControlTen:checked+label>.cardFrontDesk .cards,
+#btnControlEleven:checked+label>.cardFrontDesk .cards,
+#btnControlTwelve:checked+label>.cardFrontDesk .cards,
+#btnControlThirteen:checked+label>.cardFrontDesk .cards,
+#btnControlFourteen:checked+label>.cardFrontDesk .cards {
     transform: rotateY(180deg);
 }
 
@@ -54,21 +54,21 @@
     display: none;
 }
 
-#btnControlJS1:checked+label>.cardWrapper .cards,
-#btnControlJS2:checked+label>.cardWrapper .cards,
-#btnControlJS3:checked+label>.cardWrapper .cards,
-#btnControlJS4:checked+label>.cardWrapper .cards,
-#btnControlJS5:checked+label>.cardWrapper .cards,
-#btnControlJS6:checked+label>.cardWrapper .cards,
-#btnControlJS7:checked+label>.cardWrapper .cards,
-#btnControlJS8:checked+label>.cardWrapper .cards,
-#btnControlJS9:checked+label>.cardWrapper .cards,
-#btnControlJS10:checked+label>.cardWrapper .cards,
-#btnControlJS11:checked+label>.cardWrapper .cards,
-#btnControlJS12:checked+label>.cardWrapper .cards,
-#btnControlJS13:checked+label>.cardWrapper .cards,
-#btnControlJS14:checked+label>.cardWrapper .cards,
-#btnControlJS15:checked+label>.cardWrapper .cards {
+#btnControlJS1:checked+label>.cardFrontDesk .cards,
+#btnControlJS2:checked+label>.cardFrontDesk .cards,
+#btnControlJS3:checked+label>.cardFrontDesk .cards,
+#btnControlJS4:checked+label>.cardFrontDesk .cards,
+#btnControlJS5:checked+label>.cardFrontDesk .cards,
+#btnControlJS6:checked+label>.cardFrontDesk .cards,
+#btnControlJS7:checked+label>.cardFrontDesk .cards,
+#btnControlJS8:checked+label>.cardFrontDesk .cards,
+#btnControlJS9:checked+label>.cardFrontDesk .cards,
+#btnControlJS10:checked+label>.cardFrontDesk .cards,
+#btnControlJS11:checked+label>.cardFrontDesk .cards,
+#btnControlJS12:checked+label>.cardFrontDesk .cards,
+#btnControlJS13:checked+label>.cardFrontDesk .cards,
+#btnControlJS14:checked+label>.cardFrontDesk .cards,
+#btnControlJS15:checked+label>.cardFrontDesk .cards {
     transform: rotateY(180deg);
 }
 
@@ -86,20 +86,20 @@
     display: none;
 }
 
-#btnControlData1:checked+label>.cardWrapper .cards,
-#btnControlData2:checked+label>.cardWrapper .cards,
-#btnControlData3:checked+label>.cardWrapper .cards,
-#btnControlData4:checked+label>.cardWrapper .cards,
-#btnControlData5:checked+label>.cardWrapper .cards,
-#btnControlData6:checked+label>.cardWrapper .cards,
-#btnControlData7:checked+label>.cardWrapper .cards,
-#btnControlData8:checked+label>.cardWrapper .cards,
-#btnControlData9:checked+label>.cardWrapper .cards,
-#btnControlData10:checked+label>.cardWrapper .cards {
+#btnControlData1:checked+label>.cardFrontDesk .cards,
+#btnControlData2:checked+label>.cardFrontDesk .cards,
+#btnControlData3:checked+label>.cardFrontDesk .cards,
+#btnControlData4:checked+label>.cardFrontDesk .cards,
+#btnControlData5:checked+label>.cardFrontDesk .cards,
+#btnControlData6:checked+label>.cardFrontDesk .cards,
+#btnControlData7:checked+label>.cardFrontDesk .cards,
+#btnControlData8:checked+label>.cardFrontDesk .cards,
+#btnControlData9:checked+label>.cardFrontDesk .cards,
+#btnControlData10:checked+label>.cardFrontDesk .cards {
     transform: rotateY(180deg);
 }
 
-.cardWrapper {
+.cardFrontDesk {
     position: relative;
     min-height: 40vh;
     perspective: 2000px;
