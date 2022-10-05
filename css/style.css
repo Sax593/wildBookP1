@@ -5,7 +5,7 @@ body {
 }
 
 section {
-    margin: 1rem; 
+    margin: 1rem;
     padding-top: 10rem;
 }
 
@@ -22,6 +22,10 @@ section {
     position: fixed;
     top: 0;
     z-index: 10;
+}
+
+.iconResponsive {
+    display: none;
 }
 
 .buttons {
@@ -71,7 +75,7 @@ section {
     text-decoration: none;
 }
 
-#cardFrontDesk{
+#cardFrontDesk {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -111,16 +115,17 @@ section {
 h1 {
     text-align: center;
     color: #F76C6C;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 0.5rem;
     margin: 2rem;
+
 }
 
-.lastName{
-    font-size: 2rem ;
+.lastName {
+    font-size: 2rem;
 }
 
-.firstName{
+.firstName {
     font-size: 1.5rem;
 }
 
