@@ -67,7 +67,7 @@ section {
     text-decoration: none;
 }
 
-#cardFrontDesk {
+#cardWrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
