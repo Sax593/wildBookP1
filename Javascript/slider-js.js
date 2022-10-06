@@ -7,7 +7,6 @@ slidesJs.forEach(function (slideJs, index) {
 let counterJS = 0;
 nextBtnJs.addEventListener("click", function () {
   counterJS++;
-
   carouselJS();
 });
 

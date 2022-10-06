@@ -171,7 +171,8 @@ h1 {
 }
 
 .slider-container,
-.slider-containerJS {
+.slider-containerJS,
+.slider-containerData {
     /* border: 5px solid var(--secondaryColor); */
     width: 50vw;
     margin: 0 auto;
