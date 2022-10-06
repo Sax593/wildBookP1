@@ -1,4 +1,6 @@
-const cardWrapper = document.querySelector("#cardWrapperPhp");
+const cardWrapperPhp = document.querySelector("#cardWrapperPhp");
+const cardWrapperJS = document.querySelector("#cardWrapperJS");
+const cardWrapperData = document.querySelector("#cardWrapperData");
 
 const php = [
     {
@@ -175,12 +177,12 @@ function createCard(control, picture, firstName, lastName, github, linkedin, por
     const input = document.createElement("input");
     input.setAttribute("type", "checkbox");
     input.setAttribute("id", control);
-    cardWrapper.appendChild(input);
+    cardWrapperPhp.appendChild(input);
 
     const label = document.createElement("label");
     label.classList.add("btn");
     label.setAttribute("for", control);
-    cardWrapper.appendChild(label);
+    cardWrapperPhp.appendChild(label);
 
     const cardFrontDesk = document.createElement("div");
     cardFrontDesk.classList.add("cardFrontDesk");
