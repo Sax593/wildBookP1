@@ -1,6 +1,4 @@
 const cardWrapperPhp = document.querySelector(".slider-container");
-const cardWrapperJS = document.querySelector("#cardWrapperJS");
-const cardWrapperData = document.querySelector("#cardWrapperData");
 
 const php = [
   {
