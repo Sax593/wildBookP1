@@ -7,6 +7,7 @@ slidesJs.forEach(function (slideJs, index) {
 let counterJS = 0;
 nextBtnJs.addEventListener("click", function () {
   counterJS++;
+
   carouselJS();
 });
 
@@ -16,7 +17,7 @@ prevBtnJs.addEventListener("click", function () {
 });
 
 function carouselJS() {
-  if (counterJS < slides.length - 1) {
+  if (counterJS < slidesJs.length - 1) {
     nextBtnJs.style.display = "block";
   } else {
     nextBtnJs.style.display = "none";
