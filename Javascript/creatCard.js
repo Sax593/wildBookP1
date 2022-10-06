@@ -1,9 +1,10 @@
-const cardWrapperPhp = document.querySelector("#cardWrapperPhp");
+const cardWrapperPhp = document.querySelector(".slider-container");
 const cardWrapperJS = document.querySelector("#cardWrapperJS");
 const cardWrapperData = document.querySelector("#cardWrapperData");
 
 const php = [
     {
+        slide: slide,
         id: 1,
         control: "btnControlTwo",
         picture: "./assets/PHP/001.jpg",
@@ -16,6 +17,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 2,
         control: "btnControlThree",
         picture: "./assets/PHP/002.jpg",
@@ -28,6 +30,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 3,
         control: "btnControlThree",
         picture: "./assets/PHP/003.jpg",
@@ -40,6 +43,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 4,
         control: "btnControlFour",
         picture: "./assets/PHP/004.jpg",
@@ -52,6 +56,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 5,
         control: "btnControlFive",
         picture: "./assets/PHP/005.jpg",
@@ -64,6 +69,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 6,
         control: "btnControlSix",
         picture: "./assets/PHP/006.jpg",
@@ -76,6 +82,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 7,
         control: "btnControlSeven",
         picture: "./assets/PHP/007.jpg",
@@ -88,6 +95,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 8,
         control: "btnControlHeight",
         picture: "./assets/PHP/008.jpg",
@@ -100,6 +108,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 9,
         control: "btnControlNine",
         picture: "./assets/PHP/009.jpg",
@@ -112,6 +121,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 10,
         control: "btnControlTen",
         picture: "./assets/PHP/010.jpg",
@@ -124,6 +134,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 11,
         control: "btnControlEleven",
         picture: "./assets/PHP/011.jpg",
@@ -136,6 +147,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 12,
         control: "btnControlTwelve",
         picture: "./assets/PHP/012.jpg",
@@ -148,6 +160,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 13,
         control: "btnControlThirteen",
         picture: "./assets/PHP/013.jpg",
@@ -160,6 +173,7 @@ const php = [
         professionnalPres: "lorem ipsum",
     },
     {
+        slide: slide,
         id: 14,
         control: "btnControlFourteen",
         picture: "./assets/PHP/014.jpg",
@@ -173,16 +187,20 @@ const php = [
     },
 ];
 
-function createCard(control, picture, firstName, lastName, github, linkedin, portfolio, personalPres, professionnalPres) {
+function createCard(slide, control, picture, firstName, lastName, github, linkedin, portfolio, personalPres, professionnalPres) {
+    const slider = document.createElement("div");
+    slider.classList.add(slide);
+    cardWrapperPhp.appendChild(slider);
+
     const input = document.createElement("input");
     input.setAttribute("type", "checkbox");
     input.setAttribute("id", control);
-    cardWrapperPhp.appendChild(input);
+    slider.appendChild(input);
 
     const label = document.createElement("label");
     label.classList.add("btn");
     label.setAttribute("for", control);
-    cardWrapperPhp.appendChild(label);
+    slider.appendChild(label);
 
     const cardFrontDesk = document.createElement("div");
     cardFrontDesk.classList.add("cardFrontDesk");
@@ -290,5 +308,5 @@ function createCard(control, picture, firstName, lastName, github, linkedin, por
 }
 
 for (let i = 0; i < php.length; i++) {
-    createCard(php[i].control, php[i].picture, php[i].firstName, php[i].lastName, php[i].github, php[i].linkedin, php[i].portfolio, php[i].personalPres, php[i].professionnalPres);
+    createCard(php[i].slide, php[i].control, php[i].picture, php[i].firstName, php[i].lastName, php[i].github, php[i].linkedin, php[i].portfolio, php[i].personalPres, php[i].professionnalPres);
 }
