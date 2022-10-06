@@ -4,7 +4,7 @@ const php = [
   {
     slide: "slide",
     id: 1,
-    control: "btnControlTwo",
+    control: "btnControlOne",
     picture: "./assets/PHP/001.jpg",
     firstName: "NOM",
     lastName: "Prenom",
@@ -17,7 +17,7 @@ const php = [
   {
     slide: "slide",
     id: 2,
-    control: "btnControlThree",
+    control: "btnControlTwo",
     picture: "./assets/PHP/002.jpg",
     firstName: "NOM",
     lastName: "Prenom",
@@ -184,6 +184,209 @@ const php = [
     professionnalPres: "lorem ipsum",
   },
 ];
+
+// const javascript = [
+//     {
+//       slide: "slideJs",
+
+//       control: "btnControlJS1",
+//       picture: "./assets/JS/Nédim.jpg",
+//       firstName: "Nédim",
+//       lastName: "AMAJOUB",
+//       github: "#",
+//       linkedin: "#",
+//       portfolio: "#",
+//       personalPres: "Lorem ipsum",
+//       professionnalPres: "lorem ipsum",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS2",
+//       picture: "./assets/JS/Asma.jpg",
+//       firstName: "TOUZANI",
+//       lastName: "Asma",
+//       github: "https://github.com/Atouzani7",
+//       linkedin: "#",
+//       portfolio: "#",
+//       personalPres: "Lorem ipsum",
+//       professionnalPres: "En reconversion professionnel, pour devenir développeuse web",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS3",
+//       picture: "./assets/JS/Charly.jpg",
+//       firstName: "JUTEAU",
+//       lastName: "Charly",
+//       github: "#",
+//       linkedin: "#",
+//       portfolio: "#",
+//       personalPres: "Lorem ipsum",
+//       professionnalPres: "lorem ipsum",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS4",
+//       picture: "./assets/JS/Florian-B.jpg",
+//       firstName: "BARTIER",
+//       lastName: "Florian",
+//       github: "#",
+//       linkedin: "#",
+//       portfolio: "#",
+//       personalPres: "Lorem ipsum",
+//       professionnalPres: "lorem ipsum",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS5",
+//       picture: "./assets/JS/Florian-Bo.jpg",
+//       firstName: "BOUCHEZ",
+//       lastName: "Florian",
+//       github: "https://github.com/Fbouchezpro",
+//       linkedin: "ttps://www.linkedin.com/in/florian-bouchez-18521b23b/",
+//       portfolio: "#",
+//       personalPres: "Student Web Developer @ Wild Code school",
+//       professionnalPres: "Currently in search of a stage in IT enterprise , and in future create a web agency.",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS6",
+//       picture: "./assets/JS/Valentin.jpg",
+//       firstName: "WAQUET",
+//       lastName: "Valentin",
+//       github: "#",
+//       linkedin: "#",
+//       portfolio: "#",
+//       personalPres: "Lorem ipsum",
+//       professionnalPres: "lorem ipsum",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS7",
+//       picture: "./assets/JS/Gérald.jpg",
+//       firstName: "CARTIAUX",
+//       lastName: "Gérald",
+//       github: "https://github.com/cartige",
+//       linkedin: "https://www.linkedin.com/in/gerald-cartiaux-a97254251",
+//       portfolio: "#",
+//       personalPres: "Passioné des jeux vidéos, guitariste amateur. Soft skills : anglais niveau correct, àl'écoute, attentif. Language informatique : C, JS, CSS, HTML, Java, Vue.",
+
+//       professionnalPres: "Trouver un job dans le dévelopement web.",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS8",
+//       picture: "./assets/JS/Hervé.jpg",
+//       firstName: "SWIERGIEL",
+//       lastName: "Hervé",
+//       github: "https://github.com/hswiergiel",
+//       linkedin: "https://www.linkedin.com/in/herv%C3%A9-swiergiel-63882352/",
+//       portfolio: "#",
+//       personalPres: "Chanteur choriste, randonneur et nouvellement développeur",
+//       professionnalPres: "Fonctionnaire territorial pendant 7 ans, je me reconvertis dans le domaine dudéveloppement web et suis à la recherche d'une première expérience professionnelle",
+
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS9",
+//       picture: "./assets/JS/KÉVIN.jpg",
+//       firstName: "GUEGUEN",
+//       lastName: "Kévin",
+//       github: "https://github.com/guenk",
+//       linkedin: "https://www.linkedin.com/in/GueguenK",
+//       portfolio: "#",
+//       personalPres: "Rigoureux, autonome et organisé, je suis actuellement en formation de développeur web à la Wild Code School.",
+//       professionnalPres: "Je souhaite rejoindre une entreprise dans le cadre d'un stage ou d'une alternance dés janvier 2022.",
+
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJ10",
+//       picture: "./assets/JS/Alexis.jpg",
+//       firstName: "FOULONT",
+//       lastName: "Alexis",
+//       github: "https://github.com/AlexisFLT",
+//       linkedin: "https://www.linkedin.com/in/alexis-foulont",
+//       portfolio: "#",
+//       personalPres: "Esprit d'équipe, capacité d'adaptation et autonomie sont des softs skills que  j'aimerais mettre à profit pour mon futur métier. Une citation d'une personne anonyme me résume parfaitement : “A good team needs three things: the right people",
+//       professionnalPres: "Après 6 ans dans la Petite Enfance, j'ai décidé de me reconvertir dans l'informatique où je me suis découvert une passion. J'ai désormai le souhait d'en faire mon métier. Je suis actuellement en formation Developpeur Web à la Wild Code School de Lille etje cherche un contrat de professionnalisation pour mars 2023.",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS11",
+//       picture: "./assets/JS/Priscillia.jpg",
+//       firstName: "AMMEUX",
+//       lastName: "Priscillia",
+//       github: "https://github.com/PriscilliaAmmeux",
+//       linkedin: "https://www.linkedin.com/in/priscillia-ammeux/",
+//       portfolio: "#",
+//       personalPres: "Lorem ipsum",
+//       professionnalPres: "lorem ipsum",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS12",
+//       picture: "./assets/JS/Romain-P.jpg",
+//       firstName: "POURCHAUX",
+//       lastName: "Romain",
+//       github: "https://github.com/Fostrankill",
+//       linkedin: "#",
+//       portfolio: "#",
+//       personalPres: "Pratique le trek en autonomie sur plusieurs jours (GR20, TMB, ile de Skye ...). Aime se dépasser.",
+
+//       professionnalPres: "En recherche d'entreprise pour une alternance d'un an à la WildCodeSchool",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS13",
+//       picture: "./assets/JS/Romain.jpg",
+//       firstName: "HADDAD",
+//       lastName: "Romain",
+//       github: "#",
+//       linkedin: "#",
+//       portfolio: "#",
+//       personalPres: "Lorem ipsum",
+//       professionnalPres: "lorem ipsum",
+//     },
+//     {
+//       slide: "slideJS",
+
+//       control: "btnControlJS14",
+//       picture: "./assets/JS/unknown.png",
+//       firstName: "H",
+//       lastName: "Perrine",
+//       github: "https://github.com/PerrineDeFrance",
+//       linkedin: "https://www.linkedin.com/in/perrinehuon",
+//       portfolio: "#",
+//       personalPres: "Simplicité - humour - open mind",
+//       professionnalPres: "Développeuse web",
+//     },
+//     {
+//         slide: "slideJS",
+
+//         control: "btnControlJS15",
+//         picture: "./assets/JS/unknown.png",
+//         firstName: "POURIL",
+//         lastName: "Alexis",
+//         github: "https://github.com/alexis-Pouril",
+//         linkedin: "https://www.linkedin.com/in/alexis-pouril-25b6a390/",
+//         portfolio: "#",
+//         personalPres: "Because the people who are crazy enough to think that they can change the world, are the ones who do! ",
+//         professionnalPres: "Technicien hardware depuis maintenant 10 ans je suis à la recherche d'un nouveau challenge et je réalise une transition professionnelle afin de devenir développeur.",
+//         },
+
+//   ];
 
 function createCard(
   slide,
