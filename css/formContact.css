@@ -1,0 +1,147 @@
+body {
+    width: 100%;
+    background-color: #ECE4E4;
+}
+
+#header {
+    background-color: #F76C6C;
+    display: flex;
+    height: 10%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+
+#logo {
+    height: 100%;
+    position: absolute;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#header a {
+    color: #ECE4E4;
+    text-decoration: none;
+}
+
+blockquote {
+    position: relative;
+    padding: 4em 3em 4em 3em;
+    margin-bottom: 5rem;
+}
+
+blockquote:before {
+    font-family: var(--fontFamily);
+    position: absolute;
+    font-size: 8em;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+
+blockquote:after {
+    position: absolute;
+    font-family: var(--fontFamily);
+    font-size: 8em;
+    right: 0;
+    bottom: -0.5em;
+    content: "\201D";
+}
+
+.introTextContact {
+    font-size: 1rem;
+    font-family: var(--fontFamily);
+    letter-spacing: 0.3rem;
+    margin: 0 auto;
+}
+
+.introContact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: var(--secondaryColor);
+    margin-top: 10rem;
+}
+
+
+#header button {
+    background: #2F4858;
+    mix-blend-mode: normal;
+    border-bottom: 1px solid #0E3E5C;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-align: center;
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.contactForm {
+
+    font-family: var(--fontFamily);
+    font-size: 1em;
+    color: var(--secondaryColor);
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem
+
+}
+
+form {
+    text-align: center;
+}
+
+#submit {
+    width: 5rem;
+}
+
+[textarea] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 2em;
+    height: 1.5em;
+}
+
+[type] {
+    margin: 2em 0;
+}
+
+.lName{
+    margin-right: 4.5em;
+}
+
+.fName{
+    margin-left: 4.5em;
+}
+
+#message {
+    height: 8em;
+    width:50%;
+    
+}
+
+
+#footer {
+    background-color: #F76C6C;
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0 4px 4px rgba(0, 0, 0, 0.25);
+}
