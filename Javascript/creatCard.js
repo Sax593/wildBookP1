@@ -308,6 +308,20 @@ function createCard(
   btnNameAdd.innerHTML = "Modifiez Moi!!";
   buttonFour.appendChild(btnNameAdd);
 
+  const buttonReturn = document.createElement("div");
+  buttonReturn.classList.add("click");
+  description.appendChild(buttonReturn);
+
+  const pulse = document.createElement("div");
+  pulse.classList.add("pulse");
+  pulse.innerHTML = "Click to return";
+  buttonReturn.appendChild(pulse);
+
+  const imgclick = document.createElement("img");
+  imgclick.classList.add("imgclick");
+  imgclick.setAttribute("src", "./assets/click.png");
+  pulse.appendChild(imgclick);
+
   const cardBack = document.createElement("div");
   cardBack.classList.add("cardB");
   cards.appendChild(cardBack);

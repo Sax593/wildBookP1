@@ -108,11 +108,13 @@ blockquote:after {
     margin-left: 0;
     margin-right: 0;
 
-}.slider-container,
+}
+
+.slider-container,
 .slider-containerJS,
 .slider-containerData {
     width: auto;
-    margin:0 auto;
+    margin: 0 auto;
     height: 20%;
     max-width: 80rem;
     position: relative;
@@ -120,7 +122,9 @@ blockquote:after {
     overflow: hidden;
     display: flex;
 
-}.slide,
+}
+
+.slide,
 .slideJs,
 .slideData {
     width: 100%;
@@ -129,6 +133,12 @@ blockquote:after {
     flex-direction: row;
 }
 
-.icon p{
+.icon p {
     display: none;
+}
+
+.click {
+    top: 10%;
+    left: 20%;
+    width: 20vw;
 }
