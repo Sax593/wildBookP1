@@ -237,6 +237,21 @@ function createCardData(
   btnNamePortfolio.innerHTML = "Portfolio";
   buttonThree.appendChild(btnNamePortfolio);
 
+  const buttonFour = document.createElement("a");
+  buttonFour.classList.add("icon");
+  buttonFour.classList.add("add");
+  buttonFour.setAttribute("href", "contact.html");
+  buttonFour.setAttribute("target", "_blank");
+  linkDescription.appendChild(buttonFour);
+
+  const logoAdd = document.createElement("ion-icon");
+  logoAdd.setAttribute("name", "add-outline");
+  buttonFour.appendChild(logoAdd);
+
+  const btnNameAdd = document.createElement("p");
+  btnNameAdd.innerHTML = "Modifiez Moi!!";
+  buttonFour.appendChild(btnNameAdd);
+
   const cardBack = document.createElement("div");
   cardBack.classList.add("cardB");
   cards.appendChild(cardBack);
