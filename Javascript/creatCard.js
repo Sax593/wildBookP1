@@ -310,7 +310,7 @@ function createCard(
   biography.appendChild(proDesc);
 
   const imgProfil1 = document.createElement("img");
-  imgProfil.classList.add("imgProfil");
+  imgProfil1.classList.add("imgProfil");
   imgProfil1.setAttribute("src", picture);
   imgProfil1.setAttribute("alt", "Image de Profil");
   cardBack.appendChild(imgProfil1);
