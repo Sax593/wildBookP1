@@ -38,6 +38,16 @@ section {
     justify-content: flex-start;
 }
 
+.linkDescription a {
+    width: 100%;
+}
+
 .linkDescription a:hover {
     transform: translateY(15px);
+}
+
+.click {
+    top:10%;
+    left:20%;
+    width: 20vw;
 }

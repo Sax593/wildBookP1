@@ -61,7 +61,6 @@ section {
     font-weight: 600;
 }
 
-
 #header a {
     color: #ECE4E4;
     text-decoration: none;
@@ -168,4 +167,51 @@ h1 {
 #footer a {
     text-decoration: none;
     color: #ECE4E4;
+}
+
+.click {
+    display:flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:10%;
+    left:20%;
+    width: 10vw;
+}
+
+.pulse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 20vw;
+    height: 4vh;
+    background: #F76C6C;
+    border-radius:50px;
+    color:#2F4858;
+    font-size: 0.8rem;
+    animation: animate 2s linear infinite;
+    text-align: center;
+}
+
+.pulse:hover {
+    color: #ECE4E4;
+}
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 rgba(247,108,108,1);
+    }
+    40% {
+        box-shadow: 0 0 0 18px rgba(247,108,108,0);
+    }
+    80% {
+        box-shadow: 0 0 0 23px rgba(247,108,108,0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(247,108,108,0);
+    }
+}
+
+.imgclick {
+    width: 30px;
+    height: 30px;
 }

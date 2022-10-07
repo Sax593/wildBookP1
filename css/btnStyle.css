@@ -5,8 +5,8 @@
     display: flex;
     flex-direction: row;
     color: #F76C6C;
-    width: 10rem;
-    height: 3rem;
+    width: 10vw;
+    height: 5vh;
     border-radius: 50px;
     align-items: center;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.5)
