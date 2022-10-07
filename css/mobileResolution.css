@@ -42,7 +42,26 @@ section {
     transform: translateY(15px);
 }
 
-.slider-container{
+.buttons {
+    display: none;
+}
+
+nav.mobile {
+    display: flex;
     width: 100%;
-height: 50vw;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.menu {
+    font-size: 2rem;
+}
+
+.slider-container {
+    width: 100%;
+    height: 50vw;
 }
