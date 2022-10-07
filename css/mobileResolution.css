@@ -42,15 +42,21 @@ section {
     transform: translateY(15px);
 }
 
-#header nav {
-    display: flex;
-}
-
 .buttons {
     display: none;
 }
 
-.mobile {
-    display: inline;
+nav.mobile {
+    display: flex;
     width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.menu {
+    font-size: 2rem;
 }
