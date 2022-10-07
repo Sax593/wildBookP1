@@ -297,6 +297,12 @@ function createCard(
   cardBack.classList.add("cardB");
   cards.appendChild(cardBack);
 
+  const imgProfil1 = document.createElement("img");
+  imgProfil1.classList.add("imgProfil");
+  imgProfil1.setAttribute("src", picture);
+  imgProfil1.setAttribute("alt", "Image de Profil");
+  cardBack.appendChild(imgProfil1);
+
   const biography = document.createElement("div");
   biography.classList.add("bio");
   cardBack.appendChild(biography);
@@ -309,11 +315,7 @@ function createCard(
   proDesc.innerHTML = professionnalPres;
   biography.appendChild(proDesc);
 
-  const imgProfil1 = document.createElement("img");
-  imgProfil1.classList.add("imgProfil");
-  imgProfil1.setAttribute("src", picture);
-  imgProfil1.setAttribute("alt", "Image de Profil");
-  cardBack.appendChild(imgProfil1);
+
 }
 
 for (let i = 0; i < php.length; i++) {

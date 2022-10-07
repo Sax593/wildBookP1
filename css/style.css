@@ -288,3 +288,7 @@ h1 {
 .mobile {
     display: none;
 }
+
+.bio p {
+    padding-bottom: 1rem;
+}

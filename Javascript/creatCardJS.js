@@ -128,7 +128,7 @@ const javascript = [
   {
     slide: "slideJs",
 
-    control: "btnControlJ10",
+    control: "btnControlJS10",
     picture: "./assets/JS/Alexis.jpg",
     firstName: "FOULONT",
     lastName: "Alexis",
@@ -138,7 +138,7 @@ const javascript = [
     personalPres:
       "Esprit d'équipe, capacité d'adaptation et autonomie sont des softs skills que  j'aimerais mettre à profit pour mon futur métier. Une citation d'une personne anonyme me résume parfaitement : “A good team needs three things: the right people",
     professionnalPres:
-      "Après 6 ans dans la Petite Enfance, j'ai décidé de me reconvertir dans l'informatique où je me suis découvert une passion. J'ai désormai le souhait d'en faire mon métier. Je suis actuellement en formation Developpeur Web à la Wild Code School de Lille etje cherche un contrat de professionnalisation pour mars 2023.",
+      "Après 6 ans dans la Petite Enfance, j'ai décidé de me reconvertir dans l'informatique où je me suis découvert une passion. J'ai désormai le souhait d'en faire mon métier. Je suis actuellement en formation Developpeur Web à la Wild Code School de Lille et je cherche un contrat de professionnalisation pour mars 2023.",
   },
   {
     slide: "slideJs",
@@ -324,6 +324,12 @@ function createCardJS(
   cardBack.classList.add("cardB");
   cards.appendChild(cardBack);
 
+  const imgProfil1 = document.createElement("img");
+  imgProfil1.classList.add("imgProfil");
+  imgProfil1.setAttribute("src", picture);
+  imgProfil1.setAttribute("alt", "Image de Profil");
+  cardBack.appendChild(imgProfil1);
+
   const biography = document.createElement("div");
   biography.classList.add("bio");
   cardBack.appendChild(biography);
@@ -336,11 +342,7 @@ function createCardJS(
   proDesc.innerHTML = professionnalPres;
   biography.appendChild(proDesc);
 
-  const imgProfil1 = document.createElement("img");
-  imgProfil1.classList.add("imgProfil");
-  imgProfil1.setAttribute("src", picture);
-  imgProfil1.setAttribute("alt", "Image de Profil");
-  cardBack.appendChild(imgProfil1);
+
 }
 
 for (let i = 0; i < javascript.length; i++) {
